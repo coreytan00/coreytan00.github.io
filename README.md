@@ -1,4 +1,7 @@
 # coreytan00.github.io
-Personal Website Portfolio - Created August 12th, 2019
+Personal Website Portfolio
 
-Welcome to my online portfolio! This is where you'll find basic information about me, Corey Tan. Enjoy!
+Welcome to my online portfolio! 
+This is where you'll find basic information about me, Corey Tan.
+
+
