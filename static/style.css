@@ -1,7 +1,26 @@
 body {
-  background:url("/static/backpic.png") no-repeat center center fixed;
+  background:url("nicepic.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
  }
+
+.card{
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.card-brands{
+	width: 1000px;
+}
+
+.card-container{
+	width: 1000px;
+	height: 1000px;
+	background-color: blue;
+}
+
+
+.test{
+	background-color: black;
+}
