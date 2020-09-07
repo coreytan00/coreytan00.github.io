@@ -11,7 +11,7 @@ a:hover {
 
 body {
 	font-family: 'Tenor Sans', serif;
-	background:url("nicepic.jpg") no-repeat center center fixed;
+	background:url("black.png") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -36,13 +36,17 @@ img{
 	border-radius:50%;
 }
 
-.main-card{
-	height: 83vh;
-	background-color: rgba(255, 255, 255, 0.2);
+.background{
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	z-index: -1;
 }
 
-.name-card{
-	background-color: rgba(255, 255, 255, 0.2);
+.main-card{
+	height: 83vh;
+	background-color: rgba(36, 38, 35, 0.7);
 }
 
 .conatiner-text{

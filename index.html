@@ -18,17 +18,17 @@
 <body>
 	<div class="container">
 	  	<div class="card main-card text-center border-0 my-5 shadow-lg">
-	    	<div class="card name-card mt-5 mb-4">
-	      		<h1 class="display-1"><strong>corey tan</strong></h1>
+	    	<div class="mt-5 mb-4">
+	      		<h1 class="display-1"><strong>Corey Tan</strong></h1>
 	      	</div>
 	      	<div class="mx-auto" style="max-width: 50%;">
 	     		<p>
-     				hello! my name is corey and i am an ambitious undergraduate developer.
-     				i am seeking opportunities in which i can apply my skills to real life experience! 
+     				Hello! My name is Corey and I am an ambitious undergraduate developer.
+     				I am seeking opportunities in which I can apply my skills to real life experience! 
 				</p>
 
-				<p> current studies and projects: aws and haar training face detection</p>
-				<p> Slightly inspirational quote: "small mistakes crash rockets into planets." mit 2006 integration bee commentator
+				<p> Current studies and projects: AWS and haar training face detection</p>
+				<p> Slightly inspirational quote: "Small mistakes crash rockets into planets." MIT 2006 Integration Bee commentator
 				</p>
 			</div>
 	  		<div>
@@ -51,11 +51,36 @@
 			</div>
 		</div>
 		<hr>
+		<canvas class="background"></canvas>
 		<div class="bottom-text text-center">
 			<a href="#" class="navitem">home</a>
 			<a href="about.html" class="navitem">projects</a>
 		</div>	
 	</div>
+	<script src="node_modules/particlesjs/src/particles.js"></script>
+	<script>
+		window.onload = function(){
+			Particles.init({
+				selector:'.background',
+				color: '#03fc98',
+				maxParticles: 130,
+				connectParticles: true,
+				responsive: [
+					{
+						breakpoint: 768,
+						options: {
+							maxParticles: 80
+						}
+					}, {
+						breakpoint: 375,
+						options: {
+							maxParticles: 50
+						}
+					}
+				]
+			});
+		};
+	</script>
 </body>
 <!-- Footer -->
 <footer id="footer">
