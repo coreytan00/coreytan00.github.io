@@ -44,9 +44,12 @@ img{
 	z-index: -1;
 }
 
-.main-card{
-	height: 83vh;
+.card{
 	background-color: rgba(36, 38, 35, 0.7);
+}
+
+.project-card{
+	height: 82.5vh;
 }
 
 .conatiner-text{
