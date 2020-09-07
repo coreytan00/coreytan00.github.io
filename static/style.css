@@ -36,20 +36,16 @@ img{
 	border-radius:50%;
 }
 
-.test{
-	color:red;
-}
-
-.card{
+.main-card{
+	height: 83vh;
 	background-color: rgba(255, 255, 255, 0.2);
 }
 
-.card-brands{
-	height: 200px;
+.name-card{
+	background-color: rgba(255, 255, 255, 0.2);
 }
 
-.card-container{
-	height: 770px;
+.conatiner-text{
 }
 
 .grow {
@@ -72,7 +68,7 @@ img{
 }
 
 .scroll {
-    max-height: 770px;
+    max-height: 100vh;
     overflow-y: scroll;
     overflow-x: hidden;
 }
