@@ -7,90 +7,98 @@
 		<meta name="author" content="Coery Tan">
 
 	 <!-- Bootstrap CSS -->
-    <!--<link rel="icon" href="{{url_for('static', filename='img/Acacia-Wood-Slice.png')}}"> -->
+    <link rel="icon" href="static/icon2.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Philosopher&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tenor+Sans" rel="stylesheet">
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <script src="https://use.fontawesome.com/44650f89ff.js"></script>
     <link rel="stylesheet" type="text/css" href="static/style.css">
+
 </head>
 <body>
-	<div class="container">
+	<div class="container mb-3">
 	  	<div class="card card-container border-0 my-5 shadow-lg scroll">
 	    	<div class="row my-3 mx-3">
-	    		<div class="col-4">
-
+	    		<div class="col">
+		    		<img src="static/data.png" class="sniffdata">
 	    		</div>
 	    		<div class="col">
-	    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	    		<h2>Network packet sniffer</h2>
+	    		<p>
+	    			Frustrated that I had issues with my latency while playing League 
+	    			of Legends, I sought to figure out what was wrong with my network connection. I suspected that it may have been a bandwidth issue, so I coded a packet sniffer that captures all traffic going in and out. Of course I could simply use WireShark, but why not code it? The user can specify the running time of the sniffer and is provided data about the amount of data caught in Megabits and the bandwidth usage during that time. Additionally, all ipv4 packets caught are written into a text file in detail. 
+	    		</p>
+
+	    		<p>Implementation: Python - sockets, struct, bit-wise operations</p>
+	    		<a href="https://github.com/coreytan00/sniffer"><-Git Repo-></a>
 	    		</div>
 	    	</div>
 	    	<div class="row my-3 mx-3">
-	    		<div class="col-8">
-	    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	    		<div class="col">
+	    		<h2>Search Engine: Indexer</h2>
+	    		<p>
+		    		I developed a search engine from scratch that is capable of handling tens of thousands of documents and web page. It returns accurate search results with a query response time under 200ms by utilizing page rank, word stemming, bookkeeping, weighted tf-idf and simhash. Documents were stored in an inverted index for ease of access.
+		    	</p>
+		    	<p>Implementation: Python - flask</p>
+		    	<a href="https://github.com/coreytan00/indexer"><-Git Repo-></a>
 	    		</div>
 	    		<div class="col">
-	    		picture
-
-	    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	    			<img src="static/search.png">
 	    		</div>
 	    	</div>
 	    	<div class="row my-3 mx-3">
-	    		<div class="col-4">
-	    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	    		<div class="col">
+	    			<img src="static/petr.jpg">
 	    		</div>
 	    		<div class="col">
-	    		picture
+	    		<h2>Video Game: World of Petr</h2>
+	    		<p>
+	    			Inspired by our school culture.
+	    			this will be a picture of idk petr. devpost!
+	    		</p>
 
-	    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	    		<p>Implementation: Python - tkinter</p>
+	    		<a href="https://devpost.com/software/world-of-petr-ho6239"><-DevPost-></a>
 	    		</div>
 	    	</div>
 	    	<div class="row my-3 mx-3">
-	    		<div class="col-8">
-	    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	    		<div class="col">
+	    		<h2>Web Development: Acacia</h2>
+	    		<p>
+	    			fun fun fun grab coverletter words.
+				
+	    			one of my first big projects regarding web development!
+	    		</p>
+
+    			<p>To this day, it is still not completely finished..</p>
+
+	    		<p>*It is hosted on heroku for free so expect some loading time.</p>
+
+	    		<p>Implementation: Python - flask</p>
+	    		<a href="https://github.com/coreytan00/acacia"><-GitRepo-></a>
+	    		<a href="https://acaciafree.herokuapp.com/login"><-Check it Out-></a>
 	    		</div>
 	    		<div class="col">
-	    		picture
+		    		<img src="static/acacia.png">
+	    		</div>
+	    	</div>
+	    	<div class="row my-3 mx-3">
+	    		<div class="col">
+	    		pciture repunzel
+	    		</div>
+	    		<div class="col">
+	    		lovely
 
-	    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	    		devpost!
+
 	    		</div>
 	    	</div>
 		</div>
+		<hr>
+		<div class="bottom-text text-center">
+			<a href="index.html" class="navitem">home</a>
+			<a href="#" class="navitem">projects</a>
+		</div>	
 	</div>
 </body>
 <!-- Footer -->
