@@ -10,7 +10,7 @@ const HeaderProfile: React.FC = () => {
   return (
     <div className='me-container'>
       <motion.div className="me-img" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
-        <img style={{ width: "42%", height: "42%" }} src={"/purpleme.jpg"} />
+        <img style={{ width: "42%", height: "42%" }} className="border" src={"/purpleme.jpg"} />
       </motion.div>
       <motion.div className="me-description-container" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
         <div className="me-name">
