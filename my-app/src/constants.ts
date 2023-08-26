@@ -18,7 +18,7 @@ export const PROJECTS = [
     src: "port.png",
     description: "Created this portfolio in React to update my older portfolio. Hosted on Github Pages. Happy with how it turned out!",
     languages: ["React", "Typescript", "HTML", "CSS"],
-    categories: ["Material UI, Framer Motion"],
+    categories: ["Material UI", "Framer Motion"],
     },
   {
   title: "Machine Learning in Minecraft",
