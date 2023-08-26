@@ -6,7 +6,6 @@ import Links from "./Links";
 
 const HeaderProfile: React.FC = () => {
   const name = "Corey Tan"
-  const description = "&& Music Producer."
 
   return (
     <div className='me-container'>

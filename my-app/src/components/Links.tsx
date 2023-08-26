@@ -12,7 +12,8 @@ const Links: React.FC = () => {
   const email = "mailto:coreytan00@gmail.com"
   const linkedin = "https://www.linkedin.com/in/coreytan00/"
   const github = "https://github.com/coreytan00"
-  const soundcloud = "https://soundcloud.com/prod_koji"
+  const soundcloud = "https://soundcloud.com/prodtaiko"
+  const youtube = "https://www.youtube.com/watch?v=7A7lGm9-kZc"
 
   return (
     <div>
@@ -31,7 +32,7 @@ const Links: React.FC = () => {
             <a href={soundcloud}><GraphicEqIcon style={{ fontSize: 130 }} color="secondary" /></a>
           </motion.div>
           <motion.div whileHover={{ scale: 1.1 }} className="link">
-            <a href={soundcloud}><YouTubeIcon style={{ fontSize: 130 }} color="secondary" /></a>
+            <a href={youtube}><YouTubeIcon style={{ fontSize: 130 }} color="secondary" /></a>
           </motion.div>  
         </div>
       </motion.div>
