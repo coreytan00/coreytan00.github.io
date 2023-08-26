@@ -1,15 +1,15 @@
-export const AboutMe = "Hey, thanks for checking out my portfolio! Again, my name is Corey Tan and\
-I am a fullstack engineer based in Sunnyvale, California. I graduated in June 2022 with a Bachelor's \
-from the Unviersity of California, Irvine, and recently left my software engineer position at Amazon \
-Web Services to look for other growth opportunities. I have extensive experience in Python and React as well as \
+export const AboutMe = "Hey, thanks for checking out my portfolio! My name is Corey Tan and\
+I am a fullstack engineer based in Sunnyvale, California. I graduated in June 2022 with a Bachelor's in Computer \
+Science from U.C. Irvine, and recently left my software engineering position at Amazon Web Services in \
+search of other growth opportunities. I have extensive experience in Python and React, as well as  \
 cloud frameworks such as AWS."
 
-export const AboutMe2 = "In my free time, I love to produce music and hope to eventually become a music artist \
-myself! Check out my work if you have some time! I am also a firm believer in discpline over motivation. I also have a bird \
-named Kiwi :)"
+export const AboutMe2 = "In my free time, I love to produce music! Currently I produce a lot of chill/hip-hop beats. I aspire \
+to eventually expand my repetoire and become a music artist myself! Check out my work if you have some time! I also have a \
+green cheek conure named Kiwi :)"
 
-export const AboutMe3 = "I am seeking an opportunity that works with cutting edge technologies. If you think \
-you've got an opening that I might like, let's connect!"
+export const AboutMe3 = "I am seeking for an opportunity in which I can contribute to the latest technological advances. I am always\
+curious about recent innovations, and I love to be intellectually challenged. If you think you have an opening that I might like, let's connect!"
 
 export const PROJECTS = [
   {
@@ -29,7 +29,7 @@ export const PROJECTS = [
   getting around obstacles, detecting shootable cows, and defeating as many as possible each mission. The \
   project uses Malmo, an AI platform set in Minecraft.",
   languages: ["Python"],
-  categories: ["Machine Learning", "AI", "test"],
+  categories: ["Machine Learning", "AI"],
   },
   {
     title: "Web Development: Yumz",
@@ -72,7 +72,7 @@ export const PROJECTS = [
     description: "I developed a search engine from scratch that is capable of handling tens of thousands of documents or web pages.\
     It returns accurate search results with a query response time under 200ms by utilizing page rank, word stemming, bookkeeping, \
     weighted tf-idf and simhash. Documents were stored in an inverted index for ease of access.",
-    languages: ["Python", "Flask"],
+    languages: ["Python", "Flask", "HTML", "CSS"],
     categories: ["Big Data"],
   },
   {
@@ -93,7 +93,7 @@ export const PROJECTS = [
     src: "search.png",
     description: "I developed a search engine from scratch that is capable of handling tens of thousands of documents or web pages.\
     It returns accurate search results with a query response time under 200ms by utilizing page rank, word stemming, bookkeeping, weighted tf-idf and simhash. Documents were stored in an inverted index for ease of access.",
-    languages: ["Python", "Flask"],
+    languages: ["Python", "Flask", "HTML", "CSS"],
     categories: ["Big Data"],
   },
   {

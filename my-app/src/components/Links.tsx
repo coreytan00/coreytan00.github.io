@@ -13,7 +13,7 @@ const Links: React.FC = () => {
   const linkedin = "https://www.linkedin.com/in/coreytan00/"
   const github = "https://github.com/coreytan00"
   const soundcloud = "https://soundcloud.com/prodtaiko"
-  const youtube = "https://www.youtube.com/watch?v=7A7lGm9-kZc"
+  const youtube = "https://www.youtube.com/channel/UCEM8ixtw7xuVQMQ8cSbIlZg"
 
   return (
     <div>
