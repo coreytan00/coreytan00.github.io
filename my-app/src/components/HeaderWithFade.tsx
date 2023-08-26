@@ -15,13 +15,13 @@ const HeaderWithFade: React.FC<headerProps> = ({ text }) => {
   
   return (
     <div style={{ display: 'inline-block' }}>
-      <Typography variant="h1">
+      <Typography color="primary" variant="h1">
         {text.split('').map((letter, index) => (
           <motion.span
             key={index}
             initial={{ opacity: 0, y: 20 }}
             animate={isVisible ? { opacity: 1, y: 0 } : {}}
-            transition={{ type: "spring", duration: 0.5, delay: index * 0.1 }}
+            transition={{ duration: 0.5, delay: index * 0.065 }}
           >
             {letter}
           </motion.span>

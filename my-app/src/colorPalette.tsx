@@ -3,7 +3,8 @@ import { createTheme } from "@mui/material/styles";
 export const DarkTheme = createTheme({
   palette: {
     primary: {
-      main: "#BB86FC" //light purple
+      //main: "#BB86FC" //purple
+      main: "#E6DDD6" //cream
     },
     secondary: {
       main: "#03DAC6" //neon turquoise

@@ -16,10 +16,19 @@
 
 .main {
   background-color: #121212;
+  overflow: hidden;
 }
 
 .App-header {
-  min-height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 101vh;
+}
+
+.body {
+  padding-top: 5em;
+  margin-top: 5em;
 }
 
 .header-intro {
@@ -28,25 +37,67 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding: 2em;
+  padding-left: 5em;
   font-size: calc(10px + 2vmin);
   color: #BB86FC;
 }
 
+.learn-more-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .me-container {
-  display:flex;
+  display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-evenly;
 }
 
-.img-flex {
-  flex: 1;
+.me-img {
+  flex: 4;
+  padding-left: 3em;
+}
+
+.me-description-container {
+  flex: 5;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.me-name {
+  flex: 2;
+  color: #BB86FC;
+  padding-bottom: 2.5em;
 }
 
 .me-description {
-  flex:1;
+  flex: 3;
   color: #BB86FC;
+  text-align: left;
+}
+
+.me-links {
+  flex: 2;
+  padding-top: 2em;
+}
+
+.link-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  flex: 1; 
+  margin: 0.8em;
+}
+
+.learn-more {
+  margin-top: 4em;
 }
 
 .App-link {
@@ -62,11 +113,79 @@
   }
 }
 
-body {
-  min-height: 50vh;
-}
-
 h3 {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 13%; 
+  min-height: 70vh;
+}
+
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  padding-bottom: 5em;
+  gap: 20px;
+  
+}
+
+.about-description {
+  flex: 4;
+  padding-left: 7em;
+}
+
+.about-skills {
+  flex: 3;
+  padding-left: 3em;
+}
+
+.tech-container {
+  display: flex;
+  margin-right: 5em; 
+  flex-wrap: wrap;
+  background-color: #e6ddd6;
+}
+
+.logo {
+  display: inline-block; /* Set display to inline-block */
+  vertical-align: -7px; /* Align icon vertically in the middle */
+  padding-right: 0.5em;
+}
+
+.project-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 3em;
+}
+
+.project-image {
+  flex: 3;
+  padding-left: 6em;
+}
+
+.project-description {
+  flex: 5;
+  text-align: left;
+  padding-left: 3em;
+  padding-right: 4em;
+}
+
+.project-image img {
+  max-width: 100%;
+}
+
+.chip-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  padding-bottom: 1em;
+}
+
