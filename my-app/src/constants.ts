@@ -88,15 +88,6 @@ export const PROJECTS = [
     categories: ["tkinter"],
   },
   {
-    title: "Search Engine: Indexer",
-    link: "https://github.com/coreytan00/indexer",
-    src: "search.png",
-    description: "I developed a search engine from scratch that is capable of handling tens of thousands of documents or web pages.\
-    It returns accurate search results with a query response time under 200ms by utilizing page rank, word stemming, bookkeeping, weighted tf-idf and simhash. Documents were stored in an inverted index for ease of access.",
-    languages: ["Python", "Flask", "HTML", "CSS"],
-    categories: ["Big Data"],
-  },
-  {
     title: "Web Development: Acacia",
     link: "https://github.com/coreytan00/acacia",
     src: "acacia.png",
