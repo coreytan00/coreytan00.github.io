@@ -1,7 +1,7 @@
 export const AboutMe = "Hey, thanks for checking out my portfolio! My name is Corey Tan and\
 I am a fullstack engineer based in Sunnyvale, California. I graduated in June 2022 with a Bachelor's in Computer \
-Science from U.C. Irvine, and recently left my software engineering position at Amazon Web Services to focus on \
-my own business and music production, while passively in search of other growth opportunities! \
+Science from U.C. Irvine, and recently left my software engineering position at Amazon Web Services in search of other \
+growth opportunities, while working on my own business and music production! \
 I have extensive experience in Python and React, as well as  \
 cloud frameworks such as AWS."
 
