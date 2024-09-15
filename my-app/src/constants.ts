@@ -1,16 +1,13 @@
-export const AboutMe = "Hey, thanks for checking out my portfolio! My name is Corey Tan and\
-I am a fullstack engineer based in Sunnyvale, California. I graduated in June 2022 with a Bachelor's in Computer \
-Science from U.C. Irvine, and recently left my software engineering position at Amazon Web Services in search of other \
-growth opportunities, while working on my own business and music production! \
-I have extensive experience in Python and React, as well as  \
+export const AboutMe = "Hey, welcoming to my portfolio! My name is Corey Tan and I am \
+currently a fullstack engineer with Cienet at Google in Santa Clara, California.\
+I have extensive experience in Python and React, as well as\
 cloud frameworks such as AWS."
 
-export const AboutMe2 = "In my free time, I love to produce music! Currently I produce a lot of chill/hip-hop beats. I aspire \
-to eventually expand my repetoire and become a music artist myself! Check out my work if you have some time! I also have a \
-green cheek conure named Kiwi :)"
+export const AboutMe2 = "Apart from coding, I am also a funded day trader, music producer, and entrepreneur. I aspire \
+to eventually expand my repetoire and become a music artist myself! Check out my work on soundcloud if you have some time!"
 
 export const AboutMe3 = "I am seeking for an opportunity in which I can contribute to the latest technological advances. I am always\
-curious about recent innovations, and I love to be intellectually challenged. If you think you have an opening that I might like, let's connect!"
+curious about recent innovations, and I love to be intellectually challenged. If you think you have an opening position that may fit me, let's connect!"
 
 export const PROJECTS = [
   {
@@ -22,15 +19,15 @@ export const PROJECTS = [
     categories: ["Material UI", "Framer Motion"],
     },
   {
-  title: "Machine Learning in Minecraft",
-  link: "https://www.youtube.com/embed/lDvnZDauJ0E",
-  src: "cows.png",
-  description: "Agent trained to search and shoot for cows with a bow and arrow. The goal is to defeat as \
-  many cows as possible within a one minute time frame. Reinforcement learning will encourage the agent in \
-  getting around obstacles, detecting shootable cows, and defeating as many as possible each mission. The \
-  project uses Malmo, an AI platform set in Minecraft.",
-  languages: ["Python"],
-  categories: ["Machine Learning", "AI"],
+    title: "Machine Learning in Minecraft",
+    link: "https://www.youtube.com/embed/lDvnZDauJ0E",
+    src: "cows.png",
+    description: "Agent trained to search and shoot for cows with a bow and arrow. The goal is to defeat as \
+    many cows as possible within a one minute time frame. Reinforcement learning will encourage the agent in \
+    getting around obstacles, detecting shootable cows, and defeating as many as possible each mission. The \
+    project uses Malmo, an AI platform set in Minecraft.",
+    languages: ["Python"],
+    categories: ["Machine Learning", "AI"],
   },
   {
     title: "Web Development: Yumz",
