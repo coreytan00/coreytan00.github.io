@@ -1,12 +1,12 @@
 export const AboutMe = "Hey, welcoming to my portfolio! My name is Corey Tan and I am \
-currently a fullstack engineer with Cienet at Google in Santa Clara, California.\
-I have extensive experience in Python and React, as well as\
+currently a fullstack engineer with Cienet at Google in Santa Clara, California. \
+I have extensive experience in languages like Python and React, as well as \
 cloud frameworks such as AWS."
 
 export const AboutMe2 = "Apart from coding, I am also a funded day trader, music producer, and entrepreneur. I aspire \
-to eventually expand my repetoire and become a music artist myself! Check out my work on soundcloud if you have some time!"
+to eventually expand my repetoire and become a music artist myself! Check out my work on soundcloud if you have some time."
 
-export const AboutMe3 = "I am seeking for an opportunity in which I can contribute to the latest technological advances. I am always\
+export const AboutMe3 = "I am seeking for an opportunity in which I can contribute to the latest technological advances. I am always \
 curious about recent innovations, and I love to be intellectually challenged. If you think you have an opening position that may fit me, let's connect!"
 
 export const PROJECTS = [
